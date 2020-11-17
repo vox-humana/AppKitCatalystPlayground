@@ -2,10 +2,11 @@
 
 Tested on Catalina and Big Sur (11.0.1)
 
+![Demo](https://github.com/vox-humana/AppKitCatalystPlayground/raw/main/demo.gif)
 
 ## Next possible steps
 - Hide newly created UIWindow somehow before showing it at the right spot
-- Save and restore state (lilke `value` from SwiftUI form) or just keep whole NSWindow hiding it via `orderOut` method
+- Save and restore state (lilke `value` from SwiftUI form) or just keep whole NSWindow hiding it via `orderOut` method (see GIF)
 - Make NSWindow detection hack more reliable (maybe move new NSWindow detection on AppKit side)
 - Pass AppStore review 😅
 
